@@ -22,7 +22,7 @@ ensureDirectoryExists("uploads/documents");
 
 app.use(
     cors({
-        origin: ["http://localhost:5173", "https://axioa-j1kn.onrender.com/"],
+        origin: ["http://localhost:5173", "https://axioa-j1kn.onrender.com"],
         allowedHeaders: ["Content-Type", "Authorization"],
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     })
